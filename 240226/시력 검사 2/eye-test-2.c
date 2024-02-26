@@ -4,7 +4,7 @@ int main() {
     double a;
     scanf("%lf", &a);
 
-    if(a > 1.0) {
+    if(a >= 1.0) {
         printf("High");
     }
     else if (a < 0.5) {
