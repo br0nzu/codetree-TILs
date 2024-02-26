@@ -7,12 +7,12 @@ int main() {
     if (n >= 3000) {
         printf("book");
     }
-    else if (n < 1000) {
-        printf("no");
-    }
-    else {
+    else if (n >= 1000) {
         printf("mask");
     }
-    
+    else {
+        printf("no");
+    }
+
     return 0;
 }
