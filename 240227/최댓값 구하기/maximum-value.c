@@ -4,13 +4,13 @@ int main() {
     int a, b, c;
     scanf("%d %d %d", &a, &b, &c);
 
-    if(a <= b && b <= c) {
+    if((a <= b && b <= c) || (b <= c && a <= c)) {
         printf("%d", c);
     }
     else if(a <= b && b >= c) {
         printf("%d", b);
     }
-    else if(a >= b && a >= c) {
+    else {
         printf("%d", a);
     }
     
