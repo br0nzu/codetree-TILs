@@ -7,10 +7,10 @@ int main() {
     if(a <= b && b <= c) {
         printf("%d", c);
     }
-    else if(a <= b && b >= c && a <= c) {
+    else if(a <= b && b >= c) {
         printf("%d", b);
     }
-    else {
+    else if(a >= b && a >= c) {
         printf("%d", a);
     }
     
