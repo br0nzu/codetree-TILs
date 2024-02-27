@@ -6,11 +6,11 @@ int main() {
 
     scanf("%d %c %d %c", &age1, &gender1, &age2, &gender2);
 
-    if((age1 < 19 && age2 < 19) || (gender1 == 'W' && gender2 == 'W')) {
-        printf("0");
+    if((age1 >= 19 || age2 >= 19) && (gender1 == 'M' || gender2 == 'M')) {
+        printf("1");
     }
     else {
-        printf("1");
+        printf("0");
     }
 
     return 0;
