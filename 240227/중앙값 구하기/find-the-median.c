@@ -23,10 +23,10 @@ int main() {
         }
         else {
             if(b < c) {
-                printf("%d", b);
+                printf("%d", c);
             }
             else {
-                printf("%d", c);
+                printf("%d", b);
             }
         }
     }
