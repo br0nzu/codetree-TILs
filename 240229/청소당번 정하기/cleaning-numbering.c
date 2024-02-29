@@ -6,7 +6,7 @@ int main() {
 
     int cnt1 = 0, cnt2 = 0, cnt3 = 0;
     
-    for(int i = 0; i <= n; i++) {
+    for(int i = 1; i <= n; i++) {
         if(i % 12 == 0) {
             cnt3++;
         }
@@ -18,7 +18,7 @@ int main() {
         }
     }
 
-    printf("%d %d %d", cnt1, cnt2, cnt3 - 1);
+    printf("%d %d %d", cnt1, cnt2, cnt3);
 
     return 0;
 }
