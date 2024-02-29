@@ -4,16 +4,14 @@ int main() {
     int a, b;
     scanf("%d %d", &a, &b);
 
-    printf("%d ", a);
-
-    for(a; a < b;) {
-        if(a % 2 != 0) {
-            a *= 2;
+    for(a; a <= b;) {
+        if(a % 2 == 0) {
             printf("%d ", a);
+            a += 3;
         }
         else {
-            a += 3;
             printf("%d ", a);
+            a *= 2;
         }
     }
 
