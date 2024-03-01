@@ -7,7 +7,7 @@ int main() {
     while(1) {
         scanf("%d", &age);
         
-        if(age < 20 && age >= 30) {
+        if(age < 20 || age >= 30) {
             double average = (double)sum / cnt;
             printf("%.2lf", average);
             break;
