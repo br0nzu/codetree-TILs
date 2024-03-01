@@ -5,12 +5,8 @@ int main() {
     int cnt = 0;
 
 
-    while(1) {
+    while(cnt < 3) {
         scanf("%d", &n);
-
-        if(cnt == 3) {
-            break;
-        }
 
         if(n % 2 == 0) {
             printf("%d\n", n / 2);
