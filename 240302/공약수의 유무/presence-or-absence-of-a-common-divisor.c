@@ -8,7 +8,7 @@ int main() {
     bool condition = false;
 
     for(a; a <= b; a++) {
-        if(1920 % a == 0 || 2880 % a == 0) {
+        if(1920 % a == 0 && 2880 % a == 0) {
             condition = true;
         }
     }
