@@ -8,7 +8,7 @@ int main() {
         for(int j = 1; j <= n; j++) {
             printf("(%d, %d) ", i, j);
             
-            if(i + j == 4) {
+            if((i + j) % 4 == 0) {
                 printf("\n");
             }
         }
