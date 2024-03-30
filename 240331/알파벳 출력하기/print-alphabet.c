@@ -11,7 +11,7 @@ int main() {
             printf("%c", Text);
 
             if(Text == 'Z') {
-                Text = 'A';
+                Text = 64;
             }
 
             Text++;
