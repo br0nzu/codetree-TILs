@@ -10,7 +10,7 @@ int main() {
     for(start; start <= end; start++) {
         int cnt = 0;
 
-        for(int i = 1; i < start; i++) {
+        for(int i = 1; i <= start; i++) {
             if(start % i == 0) {
                 cnt++;
             }
