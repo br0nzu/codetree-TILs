@@ -13,7 +13,7 @@ int main() {
         }
     }
 
-    average = (arr[2] + arr[5] + arr[8]) / 3;
+    average = (arr[2] + arr[5] + arr[8]) / 3.0;
 
     printf("%d %.1lf", sum, average);
 
