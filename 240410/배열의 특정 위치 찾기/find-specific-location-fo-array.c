@@ -2,7 +2,8 @@
 
 int main() {
     int arr[10];
-    int sum = 0, average = 0;
+    int sum = 0;
+    double average = 0;
 
     for(int i = 0; i < 10; i++) {
         scanf("%d", &arr[i]);
@@ -14,7 +15,7 @@ int main() {
 
     average = (arr[2] + arr[5] + arr[8]) / 3;
 
-    printf("%d %.1lf", sum, (double)average);
+    printf("%d %.1lf", sum, average);
 
     return 0;
 }
